@@ -3,5 +3,5 @@ services:
     name: flask-rag-chatbot
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn -b 0.0.0.0:5000 rag_bot:app"
+    startCommand: "gunicorn -b 0.0.0.0:5000 suvidha:app"
     plan: free
