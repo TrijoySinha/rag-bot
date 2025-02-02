@@ -64,8 +64,8 @@ mypy-extensions==1.0.0
 networkx==3.4.2
 nibabel==5.3.2
 nipype==1.9.2
-# numpy==2.2.2
-numpy>=1.25.0,<2.0
+# numpy==2.2.2  # Removed invalid version
+numpy>=1.25.0,<2.0  # Updated to a compatible version
 orjson==3.10.15
 packaging==24.2
 pandas==2.2.3
@@ -83,12 +83,10 @@ pydantic_core==2.27.2
 pydot==3.0.4
 pyparsing==3.2.1
 PyPDF2==3.0.1
-pypiwin32==223
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pyttsx3==2.98
 pytz==2025.1
-# pywin32==308
 pyxnat==1.6.2
 PyYAML==6.0.2
 rank-bm25==0.2.2
